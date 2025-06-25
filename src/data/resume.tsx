@@ -82,6 +82,7 @@ export const DATA = {
       logoUrl: "/atomic.png",
       start: "July 2024",
       end: "Present",
+      badges: ["Honeywell DCS", "Siemens PLC", "Industrial Automation"],
       description:
         "As a Systems Engineer at The Automators Pvt Ltd since July 2024, I have been actively involved in industrial automation projects, focusing on the programming and commissioning of Siemens PLCs (S7-1200/1500) and the integration of field devices with Honeywell Experion DCS (C200E). My responsibilities include developing control logic and HMI interfaces using TIA Portal and WinCC, configuring communication protocols such as Modbus RTU over RS-485, and integrating third-party controllers like ComAp and Woodward using Moxa gateways. I work on-site to troubleshoot and ensure seamless data acquisition and control system performance. Additionally, I collaborate with clients and engineers to deliver tailored automation solutions that enhance process efficiency and system reliability.",
     },
@@ -93,6 +94,7 @@ export const DATA = {
       logoUrl: "/shopify.svg",
       start: "July 2023",
       end: "August 2023",
+      badges: ["Power Factor Optimization", "Energy Systems", "Electrical Analysis"],
       description:
         "During my internship at Atlas Power Plant in Sheikhupura, I gained hands-on experience in the operations and maintenance of a large-scale power generation facility. I closely observed the functioning of gas turbines, generators, and auxiliary systems, developing a solid understanding of power production and energy management. I was assigned a project to analyze the power factor of all motors across the plant and propose solutions for optimization. Through this, I learned how to identify inefficiencies, suggest corrective actions, and understand the importance of electrical load balancing and reactive power management in industrial power systems. This experience strengthened my foundation in power engineering and exposed me to real-world industrial practices.",
     },
@@ -194,7 +196,7 @@ export const DATA = {
     {
       title: "GSM-Based GPS Vehicle Tracking System",
       company: "Personal Project",
-      href: "https://sites.google.com/view/gps-gsm-tracker/home",
+      href: "",
       dates: "Jul 2023 – Sep 2023",
       active: true,
       description:
