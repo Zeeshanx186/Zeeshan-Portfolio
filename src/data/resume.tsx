@@ -30,33 +30,33 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "zeeshanyaqoob999@gmail.com",
+    tel: "+923156949336",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/Zeeshanx186",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "www.linkedin.com/in/zeeshanyaqoob",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/Zishan_69",
         icon: Icons.x,
 
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        url: "https://dub.sh/zeeshan-youtube",
         icon: Icons.youtube,
         navbar: true,
       },
@@ -71,6 +71,24 @@ export const DATA = {
   },
 
   work: [
+    {
+      title: "Deep Bed Filters Automation",
+      href: "",
+      dates: "Sep 2024 – Present",
+      active: true,
+      description:
+        "Engineered the complete automation of Deep Bed Filters using Honeywell Experion PKS C200E DCS at UNICOL Sugar Mill. Developed control logic for intelligent sequencing and load balancing, designed custom HMI, and executed on-site commissioning.",
+      technologies: [
+        "Honeywell C200E",
+        "Station Designer",
+        "Control Builder",
+        "Process Instrumentation",
+        "Industrial Networking"
+      ],
+      links: [],
+      image: "/images/projects/deep-bed-filters.jpg",
+    },
+    
     {
       company: "Atomic Finance",
       href: "https://atomic.finance",
