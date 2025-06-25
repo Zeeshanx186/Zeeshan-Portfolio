@@ -134,9 +134,10 @@ export default function Page() {
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                  I&apos;ve Worked on a diverse range of automation and embedded systems projects
+                  from PLC and DCS-based industrial control to AI-powered defect detection systems.
+                  Below are some of the most impactful and technically challenging ones.
+.
                 </p>
               </div>
             </div>
