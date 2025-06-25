@@ -130,25 +130,6 @@ export const DATA = {
       video: ""
     },
     {
-      title: "Shower Control System Automation",
-      company: "PACKAGES Limited",
-      href: "",
-      dates: "August 2024 – Sep 2024",
-      active: true,
-      description:
-        "Designed and implemented an automated shower control system at PACKAGES Limited using Honeywell C300 DCS. The solution improved water efficiency by optimizing PID control, sequencing, and HMI-based operations.",
-      technologies: [
-        "Honeywell C200E",
-        "Station Designer",
-        "Control Builder",
-        "PID Tuning",
-        "Process Instrumentation"
-      ],
-      links: [],
-      image: "https://github.com/Zeeshanx186/Zeeshan-Portfolio/blob/b9d680a96e7ccab523119b77a61b37987b5005f8/shower.png",
-      video: ""
-    },
-    {
       title: "Refine Centrifugal Machine Commissioning",
       company: "UNICOL Sugar Mill",
       href: "",
