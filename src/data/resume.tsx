@@ -126,7 +126,7 @@ export const DATA = {
         "Industrial Networking"
       ],
       links: [],
-      image: "https://github.com/Zeeshanx186/Zeeshan-Portfolio/blob/b9d680a96e7ccab523119b77a61b37987b5005f8/DBF.png",
+      image: "/dbf1.png",
       video: ""
     },
     {
@@ -196,7 +196,7 @@ export const DATA = {
     {
       title: "GSM-Based GPS Vehicle Tracking System",
       company: "Personal Project",
-      href: "https://sites.google.com/view/gps-gsm-tracker/home",
+      href: "https://github.com/Zeeshanx186/GPS-GSM-Based-Vehicle-Tracking-System",
       dates: "Jul 2023 – Sep 2023",
       active: true,
       description:
