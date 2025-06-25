@@ -72,21 +72,16 @@ export const DATA = {
 
   work: [
     {
-      title: "Deep Bed Filters Automation",
-      href: "",
-      dates: "Sep 2024 – Present",
-      active: true,
+      company: "Atomic Finance",
+      href: "https://atomic.finance",
+      badges: [],
+      location: "Remote",
+      title: "Bitcoin Protocol Engineer",
+      logoUrl: "/atomic.png",
+      start: "May 2021",
+      end: "Oct 2022",
       description:
-        "Engineered the complete automation of Deep Bed Filters using Honeywell Experion PKS C200E DCS at UNICOL Sugar Mill. Developed control logic for intelligent sequencing and load balancing, designed custom HMI, and executed on-site commissioning.",
-      technologies: [
-        "Honeywell C200E",
-        "Station Designer",
-        "Control Builder",
-        "Process Instrumentation",
-        "Industrial Networking"
-      ],
-      links: [],
-      image: "/images/projects/deep-bed-filters.jpg",
+        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
     },
     
     {
