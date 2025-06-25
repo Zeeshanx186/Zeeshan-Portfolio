@@ -126,7 +126,7 @@ export const DATA = {
         "Industrial Networking"
       ],
       links: [],
-      image: "/DBF.png",
+      image: "https://github.com/Zeeshanx186/Zeeshan-Portfolio/blob/b9d680a96e7ccab523119b77a61b37987b5005f8/DBF.png",
       video: ""
     },
     {
@@ -145,7 +145,7 @@ export const DATA = {
         "Process Instrumentation"
       ],
       links: [],
-      image: "/shower.png",
+      image: "https://github.com/Zeeshanx186/Zeeshan-Portfolio/blob/b9d680a96e7ccab523119b77a61b37987b5005f8/shower.png",
       video: ""
     },
     {
