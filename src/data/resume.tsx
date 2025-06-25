@@ -37,11 +37,11 @@ export const DATA = {
     "Microsoft Excel",
     "Power BI",
     "Troubleshooting",
-    "Technical Documentation"
+    "Technical Documentation",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" }
+    { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "zeeshanyaqoob999@gmail.com",
@@ -51,62 +51,52 @@ export const DATA = {
         name: "GitHub",
         url: "https://github.com/Zeeshanx186",
         icon: Icons.github,
-        navbar: true
+        navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/zeeshanyaqoob",
         icon: Icons.linkedin,
-        navbar: true
+        navbar: true,
       },
       X: {
         name: "X",
         url: "https://x.com/Zishan_69",
         icon: Icons.x,
-        navbar: true
+        navbar: true,
       },
       Youtube: {
         name: "Youtube",
         url: "https://dub.sh/zeeshan-youtube",
         icon: Icons.youtube,
-        navbar: true
+        navbar: true,
       },
-      email: {
-        name: "Send Email",
-        url: "#",
-        icon: Icons.email,
-        navbar: false
-      }
-    }
+    },
   },
-
   work: [
     {
       company: "The Automators PVT Ltd",
       href: "https://automators.com.pk/",
-      badges: [],
       location: "Remote/Local",
       title: "Systems Engineer",
       logoUrl: "/atomic.png",
       start: "July 2024",
       end: "Present",
       description:
-        "As a Systems Engineer at The Automators Pvt Ltd since July 2024, I have been actively involved in industrial automation projects, focusing on the programming and commissioning of Siemens PLCs (S7-1200/1500) and the integration of field devices with Honeywell Experion DCS (C200E). My responsibilities include developing control logic and HMI interfaces using TIA Portal and WinCC, configuring communication protocols such as Modbus RTU over RS-485, and integrating third-party controllers like ComAp and Woodward using Moxa gateways. I work on-site to troubleshoot and ensure seamless data acquisition and control system performance. Additionally, I collaborate with clients and engineers to deliver tailored automation solutions that enhance process efficiency and system reliability."
+        "As a Systems Engineer at The Automators Pvt Ltd since July 2024, I have been actively involved in industrial automation projects, focusing on the programming and commissioning of Siemens PLCs (S7-1200/1500) and the integration of field devices with Honeywell Experion DCS (C200E). My responsibilities include developing control logic and HMI interfaces using TIA Portal and WinCC, configuring communication protocols such as Modbus RTU over RS-485, and integrating third-party controllers like ComAp and Woodward using Moxa gateways. I work on-site to troubleshoot and ensure seamless data acquisition and control system performance. Additionally, I collaborate with clients and engineers to deliver tailored automation solutions that enhance process efficiency and system reliability.",
     },
     {
       company: "Atlas Power",
       href: "https://www.apl.atlas.pk/",
-      badges: [],
       location: "Remote",
       title: "Intern",
       logoUrl: "/shopify.svg",
       start: "July 2023",
       end: "August 2023",
       description:
-        "During my internship at Atlas Power Plant in Sheikhupura, I gained hands-on experience in the operations and maintenance of a large-scale power generation facility. I closely observed the functioning of gas turbines, generators, and auxiliary systems, developing a solid understanding of power production and energy management. I was assigned a project to analyze the power factor of all motors across the plant and propose solutions for optimization. Through this, I learned how to identify inefficiencies, suggest corrective actions, and understand the importance of electrical load balancing and reactive power management in industrial power systems. This experience strengthened my foundation in power engineering and exposed me to real-world industrial practices."
-    }
+        "During my internship at Atlas Power Plant in Sheikhupura, I gained hands-on experience in the operations and maintenance of a large-scale power generation facility. I closely observed the functioning of gas turbines, generators, and auxiliary systems, developing a solid understanding of power production and energy management. I was assigned a project to analyze the power factor of all motors across the plant and propose solutions for optimization. Through this, I learned how to identify inefficiencies, suggest corrective actions, and understand the importance of electrical load balancing and reactive power management in industrial power systems. This experience strengthened my foundation in power engineering and exposed me to real-world industrial practices.",
+    },
   ],
-
   education: [
     {
       school: "Sukkur IBA University",
@@ -114,10 +104,9 @@ export const DATA = {
       degree: "Bachelors of Engineering (Electronics)",
       logoUrl: "/buildspace.jpg",
       start: "2020",
-      end: "2024"
-    }
+      end: "2024",
+    },
   ],
-
   projects: [
     {
       title: "Deep Bed Filters Automation",
@@ -135,7 +124,8 @@ export const DATA = {
         "Industrial Networking"
       ],
       links: [],
-      image: "/images/projects/deep-bed-filters.jpg"
+      image: "/images/projects/deep-bed-filters.jpg",
+      video: ""
     },
     {
       title: "Shower Control System Automation",
@@ -153,7 +143,8 @@ export const DATA = {
         "Process Instrumentation"
       ],
       links: [],
-      image: "/images/projects/shower-control.jpg"
+      image: "/images/projects/shower-control.jpg",
+      video: ""
     },
     {
       title: "Refine Centrifugal Machine Commissioning",
@@ -171,7 +162,8 @@ export const DATA = {
         "PROFINET"
       ],
       links: [],
-      image: "/images/projects/refine-centrifugal.jpg"
+      image: "/images/projects/refine-centrifugal.jpg",
+      video: ""
     },
     {
       title: "Automated Vision System for Fabric Defect Detection",
@@ -193,15 +185,16 @@ export const DATA = {
         {
           type: "Source",
           href: "https://github.com/Zeeshanx186/Automated-Vision-System-for-Fabric-Defect-Inspection-.git",
-          icon: <Icons.github className="size-3" />
-        }
+          icon: <Icons.github className="size-3" />,
+        },
       ],
-      image: "/images/projects/fabric-defect.jpg"
+      image: "/images/projects/fabric-defect.jpg",
+      video: ""
     },
     {
       title: "GSM-Based GPS Vehicle Tracking System",
       company: "Personal Project",
-      href: "",
+      href: "https://sites.google.com/view/gps-gsm-tracker/home",
       dates: "Jul 2023 – Sep 2023",
       active: true,
       description:
@@ -214,7 +207,8 @@ export const DATA = {
         "Eagle CAD"
       ],
       links: [],
-      image: "/images/projects/gsm-gps-tracker.jpg"
-    }
-  ]
-} as const;
+      image: "/images/projects/gsm-gps-tracker.jpg",
+      video: ""
+    },
+  ],
+};
