@@ -11,7 +11,7 @@ export const DATA = {
     "Systems Engineer focused on Automation, Control Systems, and Industrial Communication Protocols.",
   summary:
     "I'm Zeeshan Yaqoob, an Electronics Engineer currently working as a Systems Engineer at The Automators Pvt Ltd. I specialize in industrial automation, with practical experience in Siemens PLCs (S7-1200/1500) and Honeywell DCS (C200E) systems, focusing on integrating field data into centralized control environments. [I graduated in Electrical Engineering (Electronics) from Sukkur IBA University](#education), where I was awarded the fully funded OGDCL-NTHP scholarship. My passion lies at the intersection of embedded systems, automation, and artificial intelligence. I led the development of an AI-based fabric defect detection system using YOLOv8, which secured NGIRI funding and won 1st place at SIBA Fest. I continuously strive to create smart, reliable, and efficient solutions that bridge the gap between control systems and intelligent technologies.",
-  avatarUrl: "/zeeshan.jpg",
+  avatarUrl: "/Zeeshan.png",
   skills: [
     "Siemens PLC (S7-1200/1500)",
     "Honeywell DCS (C300/C200E)",
@@ -79,7 +79,7 @@ export const DATA = {
       href: "https://automators.com.pk/",
       location: "Remote/Local",
       title: "Systems Engineer",
-      logoUrl: "/atomic.png",
+      logoUrl: "/Automators.png",
       start: "July 2024",
       end: "Present",
       badges: ["Honeywell DCS", "Siemens PLC", "Industrial Automation"],
@@ -91,7 +91,7 @@ export const DATA = {
       href: "https://www.apl.atlas.pk/",
       location: "Remote",
       title: "Intern",
-      logoUrl: "/shopify.svg",
+      logoUrl: "/atlas.jpeg",
       start: "July 2023",
       end: "August 2023",
       badges: ["Power Factor Optimization", "Energy Systems", "Electrical Analysis"],
@@ -104,7 +104,7 @@ export const DATA = {
       school: "Sukkur IBA University",
       href: "https://www.iba-suk.edu.pk/",
       degree: "Bachelors of Engineering (Electronics)",
-      logoUrl: "/buildspace.jpg",
+      logoUrl: "/IBA.png",
       start: "2020",
       end: "2024",
     },
@@ -126,7 +126,7 @@ export const DATA = {
         "Industrial Networking"
       ],
       links: [],
-      image: "/images/projects/deep-bed-filters.jpg",
+      image: "/DBF.png",
       video: ""
     },
     {
@@ -145,7 +145,7 @@ export const DATA = {
         "Process Instrumentation"
       ],
       links: [],
-      image: "/images/projects/shower-control.jpg",
+      image: "/shower.png",
       video: ""
     },
     {
@@ -164,7 +164,7 @@ export const DATA = {
         "PROFINET"
       ],
       links: [],
-      image: "/images/projects/refine-centrifugal.jpg",
+      image: "/rs.png",
       video: ""
     },
     {
@@ -190,13 +190,13 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/images/projects/fabric-defect.jpg",
+      image: "/yolo.png",
       video: ""
     },
     {
       title: "GSM-Based GPS Vehicle Tracking System",
       company: "Personal Project",
-      href: "",
+      href: "https://sites.google.com/view/gps-gsm-tracker/home",
       dates: "Jul 2023 – Sep 2023",
       active: true,
       description:
@@ -209,7 +209,7 @@ export const DATA = {
         "Eagle CAD"
       ],
       links: [],
-      image: "/images/projects/gsm-gps-tracker.jpg",
+      image: "/gps.jpg",
       video: ""
     },
   ],
